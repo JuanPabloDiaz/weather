@@ -45,7 +45,7 @@ function WeatherApp() {
   return (
     <>
       <Layout>
-        <div className="flex items-center justify-center gap-3 rounded-lg bg-black p-4 text-[#FFD23F]">
+        <div className="bg-transpent flex items-center justify-center gap-3 rounded-lg p-4 text-[#121420]">
           <TiWeatherStormy className="h-10 w-10" />
           <h1 className="text-3xl font-extrabold sm:text-3xl md:text-4xl lg:text-5xl">
             Local Weather
