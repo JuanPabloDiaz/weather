@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import Layout from "./Components/Layout";
 import { TiWeatherStormy, TiWeatherPartlySunny } from "react-icons/ti";
+import { AiOutlineLoading } from "react-icons/ai";
 
 function WeatherApp() {
   const [location, setLocation] = useState({});
@@ -51,7 +52,7 @@ function WeatherApp() {
           </h1>
           <TiWeatherPartlySunny className="h-10 w-10 " />
         </div>
-        <div className="flex w-6/12 items-center justify-around gap-2 sm:gap-3 md:gap-4 lg:gap-6">
+        <div className="flex w-4/12 items-center justify-around gap-2 rounded-xl border p-4  sm:gap-3 md:gap-4 lg:gap-6">
           <div className="p-4">
             {weather.main ? (
               <div>
@@ -67,7 +68,12 @@ function WeatherApp() {
                 </button>
               </div>
             ) : (
-              <p>Loading...</p>
+              <div className="flex items-center justify-center gap-2 rounded-xl border p-4 text-2xl">
+                <p>Loading</p>
+                <div className="border-xl rounded-full border-2 border-black/10 bg-transparent">
+                  <AiOutlineLoading className="h-5 w-5 animate-spin text-orange-400" />
+                </div>
+              </div>
             )}
           </div>
         </div>
