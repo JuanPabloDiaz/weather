@@ -6,7 +6,7 @@ This project is a responsive web application that asks the user for permission t
 
 ## Description 💡
 
-This project was built as part of the **[freeCodeCamp’s legacy Front End Development Certification]()**. The goal was to build a Local Weather with React.
+This project was built as part of the **[freeCodeCamp’s legacy Front End Development Certification]()**. The goal was to build a Local Weather with React. [Learn more](https://www.freecodecamp.org/learn/coding-interview-prep/take-home-projects/show-the-local-weather)
 
 <div align="center">
 
