@@ -2,11 +2,9 @@
 
 # Show the Local Weather 🌤️
 
-This project is a responsive web application that allows users to use a pomodoro timer to break down work into intervals, traditionally 25 minutes in length, separated by short breaks. Thats why is called Local Weather
+This project is a responsive web application that asks the user for permission to access their geolocation, then makes a call to a weather API and fetches the weather data for the user's location. The application then displays the weather data in a user-friendly format.
 
 ## Description 💡
-
-This project is a Local Weather, which is a time management system that encourages people to work with the time they have—rather than against it. Using this method, you break your workday into 25-minute chunks separated by five-minute breaks. These intervals are referred to as pomodoros.
 
 This project was built as part of the **[freeCodeCamp’s legacy Front End Development Certification]()**. The goal was to build a Local Weather with React.
 
@@ -37,7 +35,7 @@ This project was built as part of the **[freeCodeCamp’s legacy Front End Devel
 
 ### Built With 🔑
 
-Welcome to [Local Weather](https://weather.jpdiaz.dev), a simple and intuitive pomodoro timer built with React.js, Vite.js, and Tailwind CSS.
+Welcome to [Local Weather](https://weather.jpdiaz.dev), a simple tool that checks and display the weather in your area. It features a sleek and modern UI, responsive design, and efficient performance. It is built with React.js, Vite.js, and Tailwind CSS.
 
 ![React](https://img.shields.io/badge/React-61DAFB.svg?style=for-the-badge&logo=React&logoColor=black)
 ![Vite](https://img.shields.io/badge/Vite-646CFF.svg?style=for-the-badge&logo=Vite&logoColor=white)
@@ -46,7 +44,7 @@ Welcome to [Local Weather](https://weather.jpdiaz.dev), a simple and intuitive p
 Here's a closer look at the tech stack:
 
 - Front-End: React.js, Vite.js, Tailwind CSS
-- Back-End: N/A
+- Back-End: Weather API
 - Deployment: Vercel
 
 ## Get started 🛠️
@@ -105,5 +103,6 @@ Resources list that I find helpful and would like to give credit to.
 - [Vite.js](https://vitejs.dev/)
 - [React.js](https://reactjs.org/)
 - [Vercel](https://vercel.com/)
+- [weather API](https://openweathermap.org/api)
 
 <p align="right">(<a href="#top">👆 Top 👆</a>)</p>
