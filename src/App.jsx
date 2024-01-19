@@ -70,9 +70,10 @@ function WeatherApp() {
             ) : (
               <div className="flex items-center justify-center gap-2 rounded-xl border p-4 text-2xl">
                 <p>Loading</p>
-                <div className="border-xl rounded-full border-2 border-black/10 bg-transparent">
-                  <AiOutlineLoading className="h-5 w-5 animate-spin text-orange-400" />
-                </div>
+                <div className="h-6 w-6 animate-spin rounded-full border-4 border-solid border-[#E1FAF9]/60 border-b-transparent align-[-0.125em] motion-reduce:animate-[spin_1.5s_linear_infinite]"></div>
+                {/* <div className="border-xl rounded-full border-4 border-black/10 bg-transparent">
+                  <AiOutlineLoading className="h-5 w-5 animate-spin rounded-full text-black" />
+                </div> */}
               </div>
             )}
           </div>
