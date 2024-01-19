@@ -52,16 +52,16 @@ function WeatherApp() {
           </h1>
           <TiWeatherPartlySunny className="h-10 w-10 " />
         </div>
-        <div className="flex w-4/12 items-center justify-around gap-2 rounded-xl border p-4  sm:gap-3 md:gap-4 lg:gap-6">
+        <div className="flex w-4/12 items-center justify-around gap-2 p-4  sm:gap-3 md:gap-4 lg:gap-6">
           <div className="p-4">
             {weather.main ? (
-              <div>
-                <h1 className="text-2xl font-bold">{weather.name}</h1>
-                <h2 className="text-xl">
+              <div className="flex flex-col items-center justify-center">
+                <h1 className="text-3xl font-bold">{weather.name}</h1>
+                <h2 className="my-2 p-2 text-2xl font-semibold text-[#13293D]">
                   {getTemperature()} °{unit}
                 </h2>
                 <button
-                  className="mt-4 rounded bg-blue-500 px-4 py-2 text-white"
+                  className="mt-4 w-full rounded border border-gray-800 bg-[#FFEE93] px-4 py-2 text-black shadow shadow-xl transition duration-200 hover:bg-[#ECE2D0]"
                   onClick={toggleUnit}
                 >
                   Toggle Unit
